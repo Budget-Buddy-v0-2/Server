@@ -23,14 +23,6 @@ Goals.init(
             type: DataTypes.DECIMAL(10, 2),
             allowNull: false,
         },
-        end_date: {
-            type: DataTypes.DATE,
-            allowNull: false,
-        },
-        bar_color: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
         user_id: {
             type: DataTypes.INTEGER,
             references: {

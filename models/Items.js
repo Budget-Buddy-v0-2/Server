@@ -11,11 +11,11 @@ Items.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        category: {
+        item: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        category_name: {
+        category: {
             type: DataTypes.STRING,
             allowNull: false,
         },
